@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Style File -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- The Pages -->
+    <link rel="stylesheet" href="CSS/marketing.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Jomhuria&family=Merienda:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,500&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <title>Marketing Gallery</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo-image.png" alt="Logo" />
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#gallery">Work Gallery</a></li>
+                    <li><a href="index.html#c-v">My C.V</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <div class="scrolltop" onclick="scrollToTop();"></div>
+
+    <div class="marketing">
+        <div class="container">
+            <div class="box">
+                <h3>Facebook post with sponsored ad</h3>
+                <p>This is a sample post on the Facebook page of Pukka Company, a funded advertisement was made and more requests were received. Below you see some reactions from customers who received the order</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-01.jpg" alt="">
+                </div>
+                <p>A message from a customer thanking us for the quality of the product and good handling</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-02.jpg" alt="">
+                </div>
+                <p>Comment from a customer thanking us for the quality of the product, fast delivery and good service</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-03.jpg" alt="">
+                </div>
+                <p>Comment from a customer thanking us for the quality of the product, fast delivery and good service</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-04.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <h3>Advertising design for medical products</h3>
+                <p>This is an advertisement design for the product and it was published on a page that I created and created a professional logo and cover for it</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-05.jpg" alt="">
+                </div>
+                <p>This is the cover of the page I created</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-06.jpg" alt="">
+                </div>
+                <p>This is the logo for the page I created</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-07.jpg" alt="">
+                </div>
+                <p>These are some of the reactions and comments from customers who bought the product</p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-08.jpeg" alt="">
+                </div>
+                <p></p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-09.jpeg" alt="">
+                </div>
+                <p></p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-10.jpeg" alt="">
+                </div>
+                <p></p>
+                <div class="image">
+                    <img src="images/Work Gallery/Marketing/mar-11.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var scroll = document.querySelector('.scrolltop');
+            scroll.classList.toggle("scroll-active", window.scrollY > 500)
+        })
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="copyright">With My respect and appreciation &copy; 2022</div>
+    </div>
+    <!-- End Footer -->
+
+</body>
+
+</html>

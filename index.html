@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Style File -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- The Pages -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Jomhuria&family=Merienda:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,500&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo-image.png" alt="logo">
+        </div>
+        <nav class="active">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Work Gallery</a></li>
+                <li><a href="#c-v">My C.V</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-toggle").click(function() {
+                $("nav").toggleClass('active')
+            })
+        })
+    </script>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="text">
+            <h1>Welcome To My Portfolio</h1>
+            <p>Here Iam gonna share everything About My Self
+                <br>who iam, what is my work and where i worked before,What Is My Skills and what i can do
+            </p>
+        </div>
+    </div>
+    <!-- Start Landing -->
+    <!-- Start Services -->
+    <div class="services" id="services">
+        <h2 class="main-title">Services</h2>
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Video Editing</h3>
+                <p>i can do montage for your video or making a full video as you want
+                    <br> (record - edit - montage)</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>i can make a simple (Responsive) website for your business</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-palette "></i>
+                <h3>PhotoShop</h3>
+                <p>i can do editing for your pictures and design advertisements or any design you want on photoshop</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn "></i>
+                <h3>Marketing</h3>
+                <p>i can do a good marketing on Social Media for your business </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Gallery -->
+    <div class="gallery" id="gallery">
+        <h2 class="main-title">Gallery</h2>
+        <div class="container">
+            <div class="box">
+                <img src="images/gallery-01.jpg" alt="">
+                <div class="text">
+                    <h3>PhotoShop Designs</h3>
+                    <p>here you can see some of my smiple photoshop designs</p>
+                    <div class="info"><a href="photoshop-gallary.html">See More</a></div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-02.jpg" alt="">
+                <div class="text">
+                    <h3>Marketing</h3>
+                    <p>some of my skills and experince in social media marketing</p>
+                    <div class="info"><a href="marketing-gallary.html">See More</a></div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-03.jpg" alt="">
+                <div class="text">
+                    <h3>Web Development</h3>
+                    <p>some of my websites templates i make it by HTML&CSS</p>
+                    <div class="info"><a href="development-gallary.html">See More</a></div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/gallery-04.jpg" alt="">
+                <div class="text">
+                    <h3>Video Editing</h3>
+                    <p>some of my videos from my youtube channel i do montage</p>
+                    <div class="info"><a href="videos-gallary.html">See More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start C-V -->
+    <div class="c-v" id="c-v">
+        <h2 class="main-title">My C-V</h2>
+        <div class="content">
+            <div class="container">
+                <div class="left-side">
+                    <div class="profile-text">
+                        <div class="imgbx">
+                            <img src="images/profile-image.jpg">
+                        </div>
+                        <h2>Mahmoud Elseidy</h2>
+                        <span>Front-End Developer</span>
+                    </div>
+                    <div class="contact-info">
+                        <h3 class="title">Contact Info</h3>
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-whatsapp" aria-hidden="true"></i>
+                              </span  an>
+                                <span class="text">+905426446613</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                </span>
+                                <span class="text">mm.elseidy21@gmail.com</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                              </span  an>
+                            <span class="text"><a href="https://www.linkedin.com/in/mahmoud-elseidy-744bba169/" target="_blank"></a>mahmoud-elseidy-744bba169/</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                             </span   an>
+                                <span class="text">Egypt, Kafrelshikh, Desouq</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-info education">
+                        <h3 class="title">Education</h3>
+                        <ul>
+                            <li>
+                                <h5>2008 - 2011</h5>
+                                <h4>High School Diploma</h4>
+                                <span>Desouq Agricultural Secondary School</span>
+                            </li>
+                            <li>
+                                <h5>2009 - 2011</h5>
+                                <h4>Integrated Diploma in Computer Science</h4>
+                                <span>British International Institute of Computer Science</span>
+                            </li>
+                            <li>
+                                <h5>Jan,2013 - July,2013</h5>
+                                <h4>Computer repair and maintenance course</h4>
+                                <span>British International Institute of Computer Science</span>
+                                <br>
+                                <br>
+                                <span>Obtained profession accreditation and skill level measurement certificate from the Egyptian Ministry of Manpower and Immigration</span>
+                            </li>
+                        </ul>
+                        <a class="certificates" href="https://drive.google.com/drive/u/1/folders/1ZxyQ7mLYZ-RZg11_KF3syTZyy8mxMffQ" target="_blank">Browse Certificates</a>
+
+                    </div>
+                    <div class="contact-info language">
+                        <h3 class="title">Languages</h3>
+                        <ul>
+                            <li><span class="text">Arabic</span>
+                                <span class="percent">                                <div style="width: 100%;"></div>
+                                    <div style="width: 90%"></div>
+                            </span>
+                            </li>
+                            <li><span class="text">English</span>
+                                <span class="percent">
+                                    <div style="width: 75%;"></div>
+                            </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="about">
+                        <h2 class="title-2">Profile</h2>
+                        <p>Experience in e-marketing and managing social media pages Customer service and after-sales service And full professional dealing with the computer and most of the design and montage programs <br><br> And some programming skills
+                            for developing web front-end interfaces In the programming languages HTML, CSS and Javascript</p>
+                    </div>
+                    <div class="about">
+                        <h2 class="title-2">Experience</h2>
+                        <div class="box">
+                            <divv class="year-company">
+                                <h5>2020 - 2021</h5>
+                            </divv>
+                            <div class="text">
+                                <h4>Freelancer</h4>
+                                <p>Providing various services over the Internet through freelancer websites. My skills are fast typing and data entry Good use of Photoshop to edit images, video editing and montage programs too.
+                                    <br><br> Recently, I studied programming and provide mini programming services in the field of front-end development.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="year-company">
+                                <h5>2017 - 2020</h5>
+                                <h5>Pukka Accessories</h5>
+                            </div>
+                            <divv class="text">
+                                <h4>Online Seller</h4>
+                                <p>Online sales employee and customer service at a Turkish company specialized in selling men's and women's clothing and accessories. Products are shipped from Istanbul to any other country through Aramex.
+                                </p>
+                            </divv>
+                        </div>
+                        <div class="box">
+                            <div class="year-company">
+                                <h5>2015 - 2017</h5>
+                            </div>
+                            <div class="text">
+                                <h4>Freelancer</h4>
+                                <p>Providing various services over the Internet through freelancer websites. My skills are fast typing and data entry Good use of Photoshop to edit images, video editing and montage programs too.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="year-company">
+                                <h5>2011 - 2014</h5>
+                                <h5>Sharm Cliff Resort</h5>
+                            </div>
+                            <div class="text">
+                                <h4>Phone Order Taker</h4>
+                                <p>Receiving requests from guests from all hotel rooms over the phone, and then calling the department concerned with the required service and informing the details of the client’s request and his room number and following
+                                    up until the end of the work and ensuring the customer’s satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about skills">
+                        <h2 class="title-2">My Skills</h2>
+                        <div class="box">
+                            <h4>Designing pictures and advertisements</h4>
+                            <div class="percent">
+                                <div style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>Montage and video editing</h4>
+                            <div class="percent">
+                                <div style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h4>Web development</h4>
+                            <divv class="percent">
+                                <div style="width: 60%"></div>
+                            </divv>
+                        </div>
+                    </div>
+                    <div class="about interest">
+                        <h2 class="title-2">Interest</h2>
+                        <ul>
+                            <li><i class="fas fa-book-reader"></i>Reading</li>
+                            <li><i class="fas fa-walking"></i>Walking</li>
+                            <li><i class="fas fa-table-tennis"></i>Gaming</li>
+                            <li><i class="fas fa-music"></i>Music</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End C-V -->
+    <!-- Start Contact -->
+    <div class="scrolltop" onclick="scrollToTop();"></div>
+    <div class="contact" id="contact">
+        <h2 class="main-title">Contact Me</h2>
+        <div class="content">
+            <div class="container">
+                <div class="box">
+                    <h5>Social Media Links</h5>
+                    <ul class="social">
+                        <li>
+                            <a href="https://web.facebook.com/mm.elseidy21/" class="facebook" target="_blank">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/3asalia17/" class="instagram" target="_blank">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/3asalia17" class="twitter" target="_blank">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mahmoud-elseidy-744bba169/" class="linkedin" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/c/Travel18" class="youtube" target="_blank">
+                                <i class="fab fa-youtube fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="about">
+                        <div class="line">
+                            <i class="fas fa-map-marked-alt fa-2x"></i>
+                            <div class="info">Egypt, Kafrelshikh, Desouq, 33611</div>
+                        </div>
+                        <div class="line">
+                            <i class="fab fa-whatsapp-square fa-2x"></i>
+                            <div class="info"><span>+905426446613</span></div>
+                        </div>
+                        <div class="line">
+                            <i class="fas fa-at fa-2x"></i>
+                            <div class="info">3asalia2003@gmail.com</div>
+                        </div>
+                        <div class="line">
+                            <i class="fas fa-business-time fa-2x"></i>
+                            <div class="info">Business Hours: From 11:00 To 23:00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var scroll = document.querySelector('.scrolltop');
+            scroll.classList.toggle("scroll-active", window.scrollY > 500)
+        })
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    </script>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="copyright">With My respect and appreciation &copy; 2022</div>
+    </div>
+    <!-- End Footer -->
+</body>
+
+</html>
